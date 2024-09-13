@@ -1,0 +1,44 @@
+package login;
+
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	//we will add mysql connector jar file inside tomcat(servlet ke pass,lib me) for allways.
+	
+	public static String LOAD_DRIVER="com.mysql.cj.jdbc.Driver";
+	public static String URL="jdbc:mysql://localhost:3306/studentdb";
+	public static String USERNAME="root";
+	public static String PASSWORD="root";
+	
+    public LoginServlet() {
+        super();
+        
+    }
+
+	
+	public void init(ServletConfig config) throws ServletException {
+		
+	}
+
+	
+	public void destroy() {
+		
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	    String	uname = request.getParameter("Uname");
+	    String	pword = request.getParameter("pword");
+	}
+
+}

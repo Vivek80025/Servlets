@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(180, 174, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    /* used for collomn me laane ke liye */
+    display: flex;
+    flex-direction: column;
+    border: 2px thin;
+    border-radius: 5px; 
+}
+input[type="submit"]{
+    margin-top: 20px;
+    
+    padding: 10px 20px;
+    margin-right: 95px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: rgb(13, 78, 13)
+}
+input[type="text"]{
+    padding: 5px;
+    border: 2px thin black;
+}
+input[type="password"]{
+    padding: 5px;
+    border: 2px thin black;
+}
+label{
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+input{
+    margin-bottom: 10px;
+}
+h1{
+    color: green;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

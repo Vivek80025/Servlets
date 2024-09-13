@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#Box{
+    background-color: white;
+    border: 2px thin;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 40px;
+}
+input[type="submit"]{
+    background-color: green;
+    border: 2px solid white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(5, 65, 5);
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
